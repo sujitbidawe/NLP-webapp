@@ -1,29 +1,30 @@
-# Webbpack Express Example App
+# NLP app
 
-The goal of this repo is be an example of a basic but functional app built on Express and Webpack.
+Overview: 
 
-If you want to follow along, start from branch 0-initial-setup. Each branch in this project is a step along the path to creating a fully functional webpack setup. In each branch, there will be a documentation file that lists out the steps taken in that branch (each step is also roughly a git commit if you look at the history) which you can use as a checklist when setting up your own projects. 
+    - The project is made for learning purpose under Udacity course work.
+    - The project consists of a webapp that analyzes input entered by the user with help of external API and displays results on UI.
+    
+Software Requirements:
 
-## What we will cover
+    - Any modern web browser with Javascript enabled.
 
-We will cover:
+Technologies used for the project:
+    
+    - HTML, SCSS, Javascript
+    - Node, Express
+    - Fetch API
+    - Webpack
+    - jest, babel
+    
 
-- Webpack entry point
-- Webpack output and dist folder
-- Webpack Loaders
-- Webpack Plugins
-- Webpack Mode
-- Tools for convenient Webpack development
+How to run the project:
 
-## Get Up and Running
+    - While in the main folder of the project --> 
+      - run: "npm run build-dev"
+      - run: "npm run start"
 
-Fork this repo, then clone the branch of your choice from your forked repo down to your computer:
+How to run unit tests:
 
-```
-git clone -- git@github.com:[your-user-name]/webpack-express.git --
-```
-
-`cd` into your new folder and run:
-- ```npm install```
-- ```npm start``` to start the app
-- this app runs on localhost:8080, but you can of course edit that in server.js
+    - While in the main folder of the project --> 
+    - run: "npm run test"
