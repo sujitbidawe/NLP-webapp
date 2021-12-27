@@ -15,7 +15,6 @@ function handleSubmit(event) {
         data["txt"] = formText;
         data["lang"] = "en";
         Client.analyzeDataFn(data)
-        // document.getElementById('results').innerHTML = data.txt
     })
 }
 
