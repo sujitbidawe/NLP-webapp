@@ -17,3 +17,11 @@ input {
         width: 50%;
     }
 }
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.error{
+    color: red;
+}
